@@ -2148,7 +2148,7 @@
                                                             "description": "The interim accounting update interval. This value is defined in seconds.",
                                                             "type": "integer",
                                                             "maximum": 600,
-                                                            "minimum": 60,
+                                                            "minimum": 5,
                                                             "default": 60
                                                         }
                                                     }
@@ -4240,7 +4240,7 @@
                         "interval": {
                             "description": "The reporting interval defined in seconds.",
                             "type": "integer",
-                            "minimum": 60
+                            "minimum": 5
                         },
                         "types": {
                             "description": "A list of names of subsystems that shall be reported periodically.",
@@ -4264,7 +4264,7 @@
                         "interval": {
                             "description": "The reporting interval defined in seconds.",
                             "type": "integer",
-                            "minimum": 60
+                            "minimum": 5
                         },
                         "dhcp-local": {
                             "description": "This is makes the AP probe local downstream DHCP servers.",
